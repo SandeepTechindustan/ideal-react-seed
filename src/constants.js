@@ -1,0 +1,11 @@
+export const home = {
+  name: 'Sandeep Singh',
+  bio: [
+    'this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text.',
+    'this is a bio text1. this is a bio text1. this is a bio text1. this is a bio text1. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text.',
+    'this is a bio text2. this is a bio text2. this is a bio text2. this is a bio text2. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text.',
+    'this is a bio text3. this is a bio text3. this is a bio text3. this is a bio text3. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text.',
+    'this is a bio text4. this is a bio text4. this is a bio text4. this is a bio text4. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text.',
+    'this is a bio text5. this is a bio text5. this is a bio text5. this is a bio text5. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text. this is a bio text.',
+  ]
+}
