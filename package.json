@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://SandeepTechindustan.github.io/ideal-react-seed",
   "dependencies": {
+    "@material-ui/core": "^1.4.3",
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
