@@ -1,13 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import Routes from './routes';
-import { BrowserRouter } from 'react-router-dom';
-//import registerServiceWorker from './registerServiceWorker';
+import configureStore from './store';
+import { Provider } from 'react-redux';
 
-ReactDOM.render(
-  <BrowserRouter>
-    <Routes />
-  </BrowserRouter>,
+const store = configureStore();
+
+render(
+  <Provider store={store}>
+    <Routes/>
+  </Provider>,
   document.getElementById('root')
 );
-//registerServiceWorker();

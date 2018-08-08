@@ -3,11 +3,14 @@ import './styles/main.scss';
 import { Switch, Route } from 'react-router-dom';
 import Home from './containers/Home';
 
-const Routes = () => {
+const Routes = props => {
   return (
-    <Switch>
-      <Route exact path="/" component={Home} />
-    </Switch>
+    <div>
+      <Home/>
+    </div>
+    // <Switch>
+    //   <Route exact path="/" component={Home} />
+    // </Switch>
   );
 }
 

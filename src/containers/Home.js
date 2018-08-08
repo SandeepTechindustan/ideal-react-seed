@@ -1,7 +1,6 @@
 import React from 'react';
-import { Grid } from '@material-ui/core';
-import { home } from '../constants';
 import { Container, Item } from '../components/common';
+import { home } from '../constants';
 
 export default class Home extends React.Component {
 
@@ -10,17 +9,8 @@ export default class Home extends React.Component {
     
     return(
       <Container className="container">
-        <Item xs={12} sm={6}>
-        </Item>
-        <Item xs={12} sm={6} className="name-container">
-          <Container>
-            <Item xs={12}>
-              <p>{home.name}</p>
-            </Item>
-          </Container>
-        </Item>
-        <Item xs={12} sm={6} className="bio-container">
-          { home && home.bio && home.bio.map((item, i) => <p key={i}>{item}</p>)}
+        <Item xs={12}>
+         Home 
         </Item>
       </Container>
     )
