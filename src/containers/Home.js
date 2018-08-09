@@ -1,26 +1,22 @@
 import React from 'react';
-import { Grid } from '@material-ui/core';
 import { home } from '../constants';
 import { Container, Item } from '../components/common';
 
 export default class Home extends React.Component {
 
   render() {
-    console.log(home, 'home');
     
     return(
-      <Container className="container">
-        <Item xs={12} sm={6}>
-        </Item>
-        <Item xs={12} sm={6} className="name-container">
+      <Container className="home-container">
+        <Item xs={12} sm={6} className="left-side">
           <Container>
-            <Item xs={12}>
-              <p>{home.name}</p>
+            <Item xs={12} className="fixed-panel">
+              {home.name}
             </Item>
           </Container>
         </Item>
-        <Item xs={12} sm={6} className="bio-container">
-          { home && home.bio && home.bio.map((item, i) => <p key={i}>{item}</p>)}
+        <Item xs={12} sm={6} className="right-side">
+          {home.bio.map((i, n) => <p key={n}>{i}</p>)}
         </Item>
       </Container>
     )

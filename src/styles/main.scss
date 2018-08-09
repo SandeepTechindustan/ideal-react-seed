@@ -1,32 +1,3 @@
-body {
-  font-family: 'Ubuntu';
-}
-
-.container {
-  padding: 15px;
-}
-
-.name-container {
-  position: absolute ;
-div {
-  div {
-    padding: 17px 70px 70px 60px;
-    top:0px;
-    left: 0px;
-    width: 50%;
-    text-align: right;
-    position: fixed;
-    p {
-      font-size: 120px;
-      font-weight: 450;
-    }
-  }
-}
-}
-
-.bio-container {
-  padding-top: 50%;
-  position: relative;
-  right: 0;
-  scroll-behavior: smooth;
-}
+@import './common';
+@import './breakpoint';
+@import './window'

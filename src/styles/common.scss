@@ -1,0 +1,43 @@
+.left-side {
+	// font-family: 'Playfair Display', serif;
+	font-weight: 600;
+	padding: 60px;
+	padding-top: 14%;
+	div {
+		div.fixed-panel{
+			position: fixed;
+			font-size: 110px;
+			text-align: right;
+			width: 40%;
+			color: #3a6ee8;
+		}
+	}
+}
+ 
+ .right-side {
+	padding: 60px;
+	padding-top: 50%;
+	font-size: 18px;
+	font-family: 'Ubuntu';
+	font-weight: 100;
+	line-height: 2em;
+	background-color: #3a6ee8;
+	color: #fff;
+	// font-family: 'Lora', serif;
+	p:first-child { 
+		font-weight: 400;
+}
+ }
+ 
+ 
+ @media screen and (max-height: 450px) {
+	 
+ }
+ 
+ .home-container {
+	 position: absolute;
+ }
+ 
+ body {
+	 margin: 0 auto;
+ }
